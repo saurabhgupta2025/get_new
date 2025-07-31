@@ -2,8 +2,21 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #0047ab; /* Changed to a strong blue color */
     margin: 0;
     padding: 20px;  
-    
-}   
+}
+
+/* Optional enhancements */
+h1, h2, h3 {
+    color: #1e90ff; /* Dodger blue for headers */
+}
+
+a {
+    color: #007bff; /* Bootstrap blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
